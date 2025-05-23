@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    outline: none;
+
+    a {
+        outline: none;
+        text-decoration: none;
+        color: white
+
+    }
+
+
+}
+
+
+.Page_title {
+    height: auto;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.films-list {
+    gap: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film-item {
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+    padding: 0 20px 15px;
+    background: #2b2b2b;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #404040;
+    border-left: 1px solid #404040;
+
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    line-clamp: 5;
+    box-orient: vertical;
+}
+
+.film-content {
+    h2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+    }
+
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    .price {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+#films-filter-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #2b2b2b;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #404040;
+    border-left: 1px solid #404040;
+
+    input {
+        background: #0c0c0c;
+        border-style: none;
+        height: 30px;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+}
+
+.types {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+
+    input {
+        background: #0c0c0c;
+        border-style: none;
+        width: 23px !important;
+        height: 23px !important;
+    }
+
+    width: auto;
+    margin-top: 10px;
+    background: #0c0c0c;
+    border-style: none;
+
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+}
+
+.types_label {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.Sort {
+    margin-top: 10px;
+    background: #0c0c0c;
+    border-style: none;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.Sort_btn {
+    margin-top: 10px;
+    background: #0c0c0c;
+    border-style: none;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.types_row {
+    display: flex;
+    gap: 20px;
+}
+
+.Last_btns {
+    gap: 10px;
+    display: flex;
+    align-items: end;
+
+    width: 100%;
+    height: auto;
+}
+
+.Sort_drop {
+    margin-left: auto;
+}
